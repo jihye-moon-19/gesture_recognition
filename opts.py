@@ -59,7 +59,7 @@ def parse_opts_offline():
         'Number of classes for fine-tuning. n_classes is set to the number when pretraining.')
     parser.add_argument(
         '--sample_size',
-        default=100,
+        default=112,
         type=int,
         help='Height and width of inputs')
     parser.add_argument(
